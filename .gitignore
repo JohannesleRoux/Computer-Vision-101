@@ -1,0 +1,72 @@
+# ─── Python ──────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.pyd
+*.pyo
+
+# ─── Virtual environments ─────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# ─── Jupyter ─────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ─── Model weights and large binary files ────────────────────────────────────
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.bin
+*.safetensors
+*.onnx
+*.tflite
+
+# ─── Datasets ─────────────────────────────────────────────────────────────────
+data/
+datasets/
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.h5
+*.hdf5
+*.parquet
+
+# ─── Experiment tracking ──────────────────────────────────────────────────────
+runs/
+wandb/
+mlruns/
+lightning_logs/
+outputs/
+checkpoints/
+
+# ─── OS / editor ─────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ─── Environment / secrets ────────────────────────────────────────────────────
+.env
+.env.*
+*.env
+secrets.yaml
+
+# ─── Coverage / testing ───────────────────────────────────────────────────────
+.coverage
+.pytest_cache/
+htmlcov/
